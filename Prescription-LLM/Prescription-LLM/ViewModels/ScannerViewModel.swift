@@ -7,17 +7,44 @@ class ScannerViewModel: ObservableObject {
     @Published var capturedImage: UIImage?
     @Published var showingError = false
     @Published var errorMessage = ""
+    @Published var isProcessing = false
     
+    let cameraManager = CameraManager()
     private let networkManager = NetworkManager.shared
     
+    init() {
+        setupCameraManager()
+    }
+    
+    private func setupCameraManager() {
+        cameraManager.$error
+            .compactMap { $0 }
+            .sink { [weak self] error in
+                self?.showingError = true
+                self?.errorMessage = error.localizedDescription
+            }
+        
+        cameraManager.$capturedImage
+            .compactMap { $0 }
+            .assign(to: &$capturedImage)
+    }
+    
+    func startCamera() {
+        cameraManager.startSession()
+    }
+    
+    func stopCamera() {
+        cameraManager.stopSession()
+    }
+    
     func captureImage() {
-        // TODO: Implement camera capture
-        // For now, using sample image
-        capturedImage = UIImage(systemName: "doc.text")
+        cameraManager.capturePhoto()
     }
     
     func processImage() async {
         guard let image = capturedImage else { return }
+        isProcessing = true
+        defer { isProcessing = false }
         
         do {
             // Convert image to data

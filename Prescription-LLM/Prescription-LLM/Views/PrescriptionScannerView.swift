@@ -15,11 +15,8 @@ struct PrescriptionScannerView: View {
                         .scaledToFit()
                         .padding()
                 } else {
-                    Color.black
-                        .overlay {
-                            Text("No image captured")
-                                .foregroundColor(.white)
-                        }
+                    CameraPreviewView(cameraManager: viewModel.cameraManager)
+                        .edgesIgnoringSafeArea(.all)
                 }
                 
                 VStack {
@@ -35,13 +32,15 @@ struct PrescriptionScannerView: View {
                                 .clipShape(Circle())
                         }
                         
-                        Button(action: viewModel.captureImage) {
-                            Image(systemName: "camera.fill")
-                                .font(.title)
-                                .foregroundColor(.white)
-                                .padding()
-                                .background(Color.blue)
-                                .clipShape(Circle())
+                        if viewModel.capturedImage == nil {
+                            Button(action: viewModel.captureImage) {
+                                Image(systemName: "camera.fill")
+                                    .font(.title)
+                                    .foregroundColor(.white)
+                                    .padding()
+                                    .background(Color.blue)
+                                    .clipShape(Circle())
+                            }
                         }
                     }
                     .padding(.bottom, 30)
@@ -64,6 +63,7 @@ struct PrescriptionScannerView: View {
                                 dismiss()
                             }
                         }
+                        .disabled(viewModel.isProcessing)
                     }
                 }
             }
@@ -75,6 +75,12 @@ struct PrescriptionScannerView: View {
             } message: {
                 Text(viewModel.errorMessage)
             }
+        }
+        .onAppear {
+            viewModel.startCamera()
+        }
+        .onDisappear {
+            viewModel.stopCamera()
         }
     }
 }
