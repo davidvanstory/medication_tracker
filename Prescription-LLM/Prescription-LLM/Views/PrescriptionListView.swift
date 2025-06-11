@@ -6,22 +6,33 @@ struct PrescriptionListView: View {
     
     var body: some View {
         NavigationView {
-            List {
-                ForEach(viewModel.prescriptions) { prescription in
-                    NavigationLink(destination: PrescriptionDetailView(prescription: prescription)) {
-                        PrescriptionRowView(prescription: prescription)
+            ZStack {
+                List {
+                    ForEach(viewModel.prescriptions) { prescription in
+                        NavigationLink(destination: PrescriptionDetailView(prescription: prescription)) {
+                            PrescriptionRowView(prescription: prescription)
+                        }
+                    }
+                }
+                
+                VStack {
+                    Spacer()
+                    HStack {
+                        Spacer()
+                        Button(action: { showingScanner = true }) {
+                            Image(systemName: "camera.fill")
+                                .font(.title)
+                                .foregroundColor(.white)
+                                .padding()
+                                .background(Color.blue)
+                                .clipShape(Circle())
+                                .shadow(radius: 4)
+                        }
+                        .padding()
                     }
                 }
             }
             .navigationTitle("Prescriptions")
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: { showingScanner = true }) {
-                        Image(systemName: "doc.viewfinder")
-                            .font(.title2)
-                    }
-                }
-            }
             .sheet(isPresented: $showingScanner) {
                 PrescriptionScannerView()
             }
