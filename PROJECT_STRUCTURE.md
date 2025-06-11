@@ -3,10 +3,10 @@
 ## Xcode Project Organization
 
 ```
-PrescriptionScanner/
-├── PrescriptionScanner/
+Prescription-LLM/
+├── Prescription-LLM/
 │   ├── App/
-│   │   ├── PrescriptionScannerApp.swift
+│   │   ├── Prescription-LLMApp.swift
 │   │   ├── ContentView.swift
 │   │   └── AppDelegate.swift (if needed)
 │   │
@@ -76,13 +76,13 @@ PrescriptionScanner/
 │       ├── Localizable.strings
 │       └── Colors.xcassets
 │
-├── PrescriptionScannerTests/
+├── Prescription-LLMTests/
 │   ├── ViewModelTests/
 │   ├── ServiceTests/
 │   ├── NetworkTests/
 │   └── UtilityTests/
 │
-├── PrescriptionScannerUITests/
+├── Prescription-LLMUITests/
 │   ├── CameraUITests.swift
 │   ├── ProcessingUITests.swift
 │   └── ChatUITests.swift
@@ -94,7 +94,7 @@ PrescriptionScanner/
 ## Key Files Overview
 
 ### App Layer
-- **PrescriptionScannerApp.swift**: Main app entry point, app lifecycle
+- **Prescription-LLMApp.swift**: Main app entry point, app lifecycle
 - **ContentView.swift**: Root view and navigation setup
 
 ### Views (SwiftUI)

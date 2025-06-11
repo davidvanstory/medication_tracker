@@ -57,7 +57,7 @@ This app allows users to:
 ## Project Structure
 
 ```
-PrescriptionScanner/
+Prescription-LLM/
 ├── App/                    # App lifecycle and entry point
 ├── Views/                  # SwiftUI views organized by feature
 ├── ViewModels/            # MVVM view models

@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DA011C612DF955CC00E01810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA011C4B2DF955CB00E01810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA011C522DF955CB00E01810;
+			remoteInfo = "Prescription-LLM";
+		};
+		DA011C6B2DF955CC00E01810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA011C4B2DF955CB00E01810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA011C522DF955CB00E01810;
+			remoteInfo = "Prescription-LLM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA011C532DF955CB00E01810 /* Prescription-LLM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prescription-LLM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA011C602DF955CC00E01810 /* Prescription-LLMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prescription-LLMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA011C6A2DF955CC00E01810 /* Prescription-LLMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prescription-LLMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DA011C552DF955CB00E01810 /* Prescription-LLM */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Prescription-LLM";
+			sourceTree = "<group>";
+		};
+		DA011C632DF955CC00E01810 /* Prescription-LLMTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Prescription-LLMTests";
+			sourceTree = "<group>";
+		};
+		DA011C6D2DF955CC00E01810 /* Prescription-LLMUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Prescription-LLMUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA011C502DF955CB00E01810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA011C5D2DF955CC00E01810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA011C672DF955CC00E01810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA011C4A2DF955CB00E01810 = {
+			isa = PBXGroup;
+			children = (
+				DA011C552DF955CB00E01810 /* Prescription-LLM */,
+				DA011C632DF955CC00E01810 /* Prescription-LLMTests */,
+				DA011C6D2DF955CC00E01810 /* Prescription-LLMUITests */,
+				DA011C542DF955CB00E01810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA011C542DF955CB00E01810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA011C532DF955CB00E01810 /* Prescription-LLM.app */,
+				DA011C602DF955CC00E01810 /* Prescription-LLMTests.xctest */,
+				DA011C6A2DF955CC00E01810 /* Prescription-LLMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA011C522DF955CB00E01810 /* Prescription-LLM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA011C742DF955CC00E01810 /* Build configuration list for PBXNativeTarget "Prescription-LLM" */;
+			buildPhases = (
+				DA011C4F2DF955CB00E01810 /* Sources */,
+				DA011C502DF955CB00E01810 /* Frameworks */,
+				DA011C512DF955CB00E01810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DA011C552DF955CB00E01810 /* Prescription-LLM */,
+			);
+			name = "Prescription-LLM";
+			packageProductDependencies = (
+			);
+			productName = "Prescription-LLM";
+			productReference = DA011C532DF955CB00E01810 /* Prescription-LLM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA011C5F2DF955CC00E01810 /* Prescription-LLMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA011C772DF955CC00E01810 /* Build configuration list for PBXNativeTarget "Prescription-LLMTests" */;
+			buildPhases = (
+				DA011C5C2DF955CC00E01810 /* Sources */,
+				DA011C5D2DF955CC00E01810 /* Frameworks */,
+				DA011C5E2DF955CC00E01810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA011C622DF955CC00E01810 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA011C632DF955CC00E01810 /* Prescription-LLMTests */,
+			);
+			name = "Prescription-LLMTests";
+			packageProductDependencies = (
+			);
+			productName = "Prescription-LLMTests";
+			productReference = DA011C602DF955CC00E01810 /* Prescription-LLMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA011C692DF955CC00E01810 /* Prescription-LLMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA011C7A2DF955CC00E01810 /* Build configuration list for PBXNativeTarget "Prescription-LLMUITests" */;
+			buildPhases = (
+				DA011C662DF955CC00E01810 /* Sources */,
+				DA011C672DF955CC00E01810 /* Frameworks */,
+				DA011C682DF955CC00E01810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA011C6C2DF955CC00E01810 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA011C6D2DF955CC00E01810 /* Prescription-LLMUITests */,
+			);
+			name = "Prescription-LLMUITests";
+			packageProductDependencies = (
+			);
+			productName = "Prescription-LLMUITests";
+			productReference = DA011C6A2DF955CC00E01810 /* Prescription-LLMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA011C4B2DF955CB00E01810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					DA011C522DF955CB00E01810 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					DA011C5F2DF955CC00E01810 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = DA011C522DF955CB00E01810;
+					};
+					DA011C692DF955CC00E01810 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = DA011C522DF955CB00E01810;
+					};
+				};
+			};
+			buildConfigurationList = DA011C4E2DF955CB00E01810 /* Build configuration list for PBXProject "Prescription-LLM" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA011C4A2DF955CB00E01810;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DA011C542DF955CB00E01810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA011C522DF955CB00E01810 /* Prescription-LLM */,
+				DA011C5F2DF955CC00E01810 /* Prescription-LLMTests */,
+				DA011C692DF955CC00E01810 /* Prescription-LLMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA011C512DF955CB00E01810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA011C5E2DF955CC00E01810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA011C682DF955CC00E01810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA011C4F2DF955CB00E01810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA011C5C2DF955CC00E01810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA011C662DF955CC00E01810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA011C622DF955CC00E01810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA011C522DF955CB00E01810 /* Prescription-LLM */;
+			targetProxy = DA011C612DF955CC00E01810 /* PBXContainerItemProxy */;
+		};
+		DA011C6C2DF955CC00E01810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA011C522DF955CB00E01810 /* Prescription-LLM */;
+			targetProxy = DA011C6B2DF955CC00E01810 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA011C722DF955CC00E01810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4SA9UFLZMT;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA011C732DF955CC00E01810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4SA9UFLZMT;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA011C752DF955CC00E01810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SA9UFLZMT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ArtJiang.Prescription-LLM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA011C762DF955CC00E01810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SA9UFLZMT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ArtJiang.Prescription-LLM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA011C782DF955CC00E01810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SA9UFLZMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ArtJiang.Prescription-LLMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prescription-LLM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Prescription-LLM";
+			};
+			name = Debug;
+		};
+		DA011C792DF955CC00E01810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SA9UFLZMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ArtJiang.Prescription-LLMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prescription-LLM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Prescription-LLM";
+			};
+			name = Release;
+		};
+		DA011C7B2DF955CC00E01810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SA9UFLZMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ArtJiang.Prescription-LLMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prescription-LLM";
+			};
+			name = Debug;
+		};
+		DA011C7C2DF955CC00E01810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SA9UFLZMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ArtJiang.Prescription-LLMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prescription-LLM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA011C4E2DF955CB00E01810 /* Build configuration list for PBXProject "Prescription-LLM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA011C722DF955CC00E01810 /* Debug */,
+				DA011C732DF955CC00E01810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA011C742DF955CC00E01810 /* Build configuration list for PBXNativeTarget "Prescription-LLM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA011C752DF955CC00E01810 /* Debug */,
+				DA011C762DF955CC00E01810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA011C772DF955CC00E01810 /* Build configuration list for PBXNativeTarget "Prescription-LLMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA011C782DF955CC00E01810 /* Debug */,
+				DA011C792DF955CC00E01810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA011C7A2DF955CC00E01810 /* Build configuration list for PBXNativeTarget "Prescription-LLMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA011C7B2DF955CC00E01810 /* Debug */,
+				DA011C7C2DF955CC00E01810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA011C4B2DF955CB00E01810 /* Project object */;
+}
