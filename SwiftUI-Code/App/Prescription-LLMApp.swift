@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct PrescriptionScannerApp: App {
+struct Prescription-LLMApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
